@@ -1,0 +1,98 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/boston_dynamics/atlas/protos/Atlas.proto"
+
+WorldInfo {
+  info [
+    "Atlas sample"
+  ]
+  CFM 1e-07
+  ERP 0.8
+  basicTimeStep 8
+  lineScale 0.25
+}
+Viewpoint {
+  orientation 0.4070698820928435 0.00026872981689415827 -0.9133969777031256 2.733405930808359
+  position 4.800491540786256 5.734383223769186 5.791861908741148
+  followType "Mounted Shot"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  size 1000 1000
+}
+Atlas {
+  hidden position_0_0 -2.902432682281471e-07
+  hidden position_0_1 -0.0008622811799109212
+  hidden position_0_2 0.000862571232219791
+  hidden rotation_5 0 0 -1 2.904771073105625e-07
+  hidden position_5_0 -1.4368591027200117e-06
+  hidden rotation_7 0 -1 0 1.4367068759434471e-06
+  hidden position_7_0 -5.1790016479384525e-08
+  hidden rotation_9 -1 0 0 5.16191365590357e-08
+  hidden position_9_0 0.47859881601631443
+  hidden position_9_1 -2.3102407203264172e-08
+  hidden position_9_2 0.47859922081812967
+  hidden rotation_11 0 0.5000001748438417 0.8660253028382762 0.4785988160163143
+  hidden position_11_0 -1.3938208780676553
+  hidden rotation_13 -1 0 0 1.3938208780676553
+  hidden position_13_0 0.00499994553576985
+  hidden rotation_15 0 1 0 0.004999945535754248
+  hidden position_15_0 0.004999324946463029
+  hidden rotation_17 1 0 0 0.0049993249464848144
+  hidden position_17_0 -2.8981710789710887e-08
+  hidden rotation_19 0 -1 0 2.9802322387695313e-08
+  hidden position_19_0 -5.244350096371249e-08
+  hidden rotation_21 -1 0 0 5.16191365590357e-08
+  hidden rotation_23 0 -1 0 2.9802322387695313e-08
+  hidden rotation_24 0 0.5000001748438416 -0.8660253028382761 0.47859922081812967
+  hidden position_24_0 1.3948821137400498
+  hidden rotation_26 1 0 0 1.39488211374005
+  hidden position_26_0 0.004999903432261746
+  hidden rotation_28 0 1 0 0.004999903432219958
+  hidden position_28_0 -0.004999336870628652
+  hidden rotation_30 -1 0 0 0.004999336870644736
+  hidden position_30_0 -5.755368596343932e-08
+  hidden rotation_32 0 -1 0 5.960464477539063e-08
+  hidden position_32_0 2.4378157009060462e-08
+  hidden rotation_34 0.9999999999999999 0 0 2.9802322387695313e-08
+  hidden rotation_36 0 0 -1 0.000862281179859721
+  hidden position_36_0 0.2548380165148765
+  hidden rotation_38 1 0 0 0.2548380165148764
+  hidden position_38_0 0.0526958977517177
+  hidden rotation_40 0 1 0 0.05269589775172082
+  hidden position_40_0 0.30000014956923193
+  hidden rotation_42 0 1 0 0.3000001495692317
+  hidden position_42_0 -0.5350803512403282
+  hidden rotation_44 0 -1 0 0.5350803512403284
+  hidden position_44_0 -0.024592006342844957
+  hidden rotation_46 -1 0 0 0.0245920063428383
+  hidden rotation_48 0 0 1 0.0008625712322683373
+  hidden position_48_0 0.25483801740278395
+  hidden rotation_50 1 0 0 0.254838017402784
+  hidden position_50_0 -0.18316653984099598
+  hidden rotation_52 0 -1 0 0.18316653984099562
+  hidden position_52_0 0.39040462683647487
+  hidden rotation_54 0 1 0 0.3904046268364751
+  hidden position_54_0 -0.40477960731548607
+  hidden rotation_56 0 -0.9999999999999999 0 0.4047796073154859
+  hidden position_56_0 -0.024592006335921082
+  hidden rotation_58 -1 0 0 0.024592006335921807
+  translation -1.6684708787786997 2.2592080220143034 0.20750826656208732
+  rotation -0.15895729219776839 -0.9783276237483218 -0.1326937823265105 1.7648334073047294
+  controller "atlas_rl_controller"
+  supervisor TRUE
+  pelvisSlot [
+    Accelerometer {
+    }
+    GPS {
+    }
+    Gyro {
+    }
+  ]
+}
