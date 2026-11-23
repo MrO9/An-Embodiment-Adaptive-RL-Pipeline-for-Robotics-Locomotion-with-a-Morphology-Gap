@@ -113,6 +113,3 @@ Backward, left and right gaits exist only if `OMNI = True` and the search has fi
 Jude Onyenze, Department of Mechanical Engineering, University of Texas at Dallas.
 chisimdi.onyenze@utdallas.edu
 
-## License
-
-[TODO: choose a license, for example MIT, and add a `LICENSE` file.]
