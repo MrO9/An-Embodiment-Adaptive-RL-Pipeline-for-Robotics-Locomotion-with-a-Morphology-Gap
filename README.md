@@ -88,7 +88,6 @@ Backward, left and right gaits exist only if `OMNI = True` and the search has fi
 | Atlas gait, curriculum and noise polish | Run the Atlas project with the default settings |
 | TD3 residual (negative result) | Leave `RUN_TRAINING = True`; results are in the training log |
 
-[TODO: add the exact figure/table-to-run mapping, the number of seeds used for each result, and expected wall-clock time.]
 
 ## Known limitations
 
